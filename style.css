@@ -101,9 +101,13 @@ padding: 0px 70px;
     header{
         padding: 0px;
     }
-    nav{
+    nav, 
+    .teams-container{
         flex-direction: column;
         align-items: normal;
+    }
+    .teams-img{
+        grid-template-columns: 1fr;
     }
     .banner-content{
         margin-top: -100px;
@@ -116,9 +120,12 @@ padding: 0px 70px;
     header{
         padding: 0px 20px;
     }
-    nav{
+    nav, .teams-container{
         flex-direction: column;
         align-items: normal;
+    }
+    .teams-container{
+        margin: 0px 50px;
     }
     .banner-content{
         margin-top: -100px;
